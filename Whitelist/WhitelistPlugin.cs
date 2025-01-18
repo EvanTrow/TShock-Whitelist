@@ -1,13 +1,11 @@
-﻿using Microsoft.Xna.Framework;
-using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
+using Newtonsoft.Json;
+using Microsoft.Xna.Framework;
 using Terraria;
-using Terraria.ID;
 using TerrariaApi.Server;
 using TShockAPI;
-using TShockAPI.DB;
 
 namespace Whitelist
 {
@@ -113,7 +111,7 @@ namespace Whitelist
                     args.Player.SendInfoMessage("/wl add <Username/UUID>");
                     args.Player.SendInfoMessage("/wl remove <Username/UUID>");
                     args.Player.SendInfoMessage("/wl reload");
-                    args.Player.SendInfoMessage("/wl list (all)");
+                    args.Player.SendInfoMessage("/wl list");
                     break;
             }
         }

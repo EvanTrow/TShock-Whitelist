@@ -1,14 +1,12 @@
 # Whitelist
 
-TShock plugin that automatically joins players to a configurable team when they join the server.
+TShock plugin that adds whitelist functionality to a TShock Terraria server.
 
-## Configuration
+## Commands
 
-For config value `Team`:
-| value | desc |
-| :--- | :---
-| **`1`** | `Red` |
-| **`2`** | `Green` |
-| **`3`** | `Blue` |
-| **`4`** | `Yellow` |
-| **`5`** | `Pink` |
+| Description                               | Command                      |
+| :---------------------------------------- | :--------------------------- |
+| **Add to whitelist**                      | `/wl add <Username/UUID>`    |
+| **Remove from whitelist**                 | `/wl remove <Username/UUID>` |
+| **Reload the whitelist.json file**        | `/wl reload`                 |
+| **List whitelisted players and attempts** | `/wl list`                   |
